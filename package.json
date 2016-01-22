@@ -1,0 +1,15 @@
+{
+  "name": "servicio-calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora",
+  "author": "jsurrego",
+  "license": "uniandes",
+  "dependencies": {
+    "seneca": "0.6.2",
+    "express": "*",
+    "body-parser": "*"
+  },
+  "scripts": {
+  	"start": "node server-init.js"
+  }
+}
