@@ -12,3 +12,7 @@ client.act({ type: 'calculadora', function: 'sumar', vars:{"nums": numbers}}, fu
 client.act({ type: 'calculadora', function: 'restar', vars:{"nums":numbers}}, function (err, result) {
   console.log(result);
 })
+
+client.act({ type: 'calculadora', function: 'multiplicar', vars:{ nums: [2,5,3]}}, function(err, result){
+    console.log(result);
+})
